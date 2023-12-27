@@ -16,7 +16,7 @@ ciudades.push("Paris");
 
 document.write(`<li>Elemento última posición: ${ciudades[ciudades.length - 1]}</li>`);
 
-ciudades.splice(1,1,"Barcelona");
+ciudades.splice(1,0,"Barcelona");
 
 document.write(`<h1>Arreglo de ciudades</h1>`);
 
